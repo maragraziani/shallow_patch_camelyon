@@ -1,7 +1,16 @@
 # Shallow CNN for Binary Classification of Tumor vs Non-Tumor images in Patch Camelyon 
-Performance of Shallow CNN on Benchmark data Patch Camelyon
+Shallow CNN on Benchmark data Patch Camelyon
+
+We will use the Camelyon dataset [1]. To facilitate research on these challenging data, a subset of images with fixed splits called PatchCamelyon (PCam) was released for benchmarking by Bastiaan S, Veeling and Jasper Linmans, Jim Winkens, Taco Cohen and Max Welling [2].
+
+The data can be downloaded by executing the download_data.sh in the data/ folder.
+Depending on your bandwidth, the download may take several minutes.
 
 # 
+
+##### Dependencies
+Install the list of libraries by running 
+pip install -r requisites.txt
 
 ##### Dataset Credits: 
 [1] B. S. Veeling, J. Linmans, J. Winkens, T. Cohen, M. Welling. "Rotation Equivariant CNNs for Digital Pathology". arXiv:1806.03962
